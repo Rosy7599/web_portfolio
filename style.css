@@ -1,0 +1,169 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.863);
+    display: grid;
+    grid-template-columns: 7fr .8fr.8fr .8fr .9fr .9fr .8fr;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    
+}
+.h3{
+  text-align: center;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.jumbotron{
+    margin: 10px;
+    background-color: rgba(78, 78, 78, 0);
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    color: white;
+    align-content: center;
+    
+    
+}
+.main{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url("img/jl.jpg");
+}
+.border-randius{
+    border-radius: 50%;
+}
+hr {
+    height: 10px;
+    background-color: black;
+    
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1000px 1fr; 
+   
+}
+
+.text-title{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 196, 218);
+}
+
+.card{
+    align-content: center;
+ 
+}
+.main1{
+  display: grid;
+  grid-template-columns: 500px 2fr;
+  margin: 10px;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.block{
+    display: grid;
+    grid-template-columns: 500px 1fr  1fr;
+    margin-left: 250px;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(184, 184, 184);
+    color: white;
+    transform: rotateY(180deg);
+    width: 300px;
+    height: 200px;
+  }
+
+  .enlace{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .tarjet{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 104px;
+ }
+ .centrado{
+  margin-left: 455px;  
+}
+
+.map{
+  color: rgb(131, 131, 131);
+  text-decoration: none;
+}
+
+.footer{
+  background-color: black;
+  height: 300px;
+}
+
+.foot{
+  text-align: center;
+  color: rgb(131, 131, 131);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  
+}
+
+.iconfoot{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-left: 500px;
+}
+
+.copy{
+  color: rgb(131, 131, 131);
+  margin-left: 113px;
+}
+
+
+    
