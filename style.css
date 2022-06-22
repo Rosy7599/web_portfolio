@@ -19,7 +19,7 @@
     background-color: rgba(78, 78, 78, 0);
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    color: white;
+    color: rgb(0, 0, 0);
     align-content: center;
     
     
@@ -29,7 +29,7 @@
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    background-image: url("img/jl.jpg");
+    background-image: url("img/fondob.jpg");
 }
 .border-randius{
     border-radius: 50%;
@@ -50,7 +50,7 @@ hr {
 .text-title{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(32, 196, 218);
+    color: rgb(6, 134, 49);
 }
 
 .card{
@@ -142,7 +142,7 @@ hr {
 
 .footer{
   background-color: black;
-  height: 300px;
+  height: 350px;
 }
 
 .foot{
@@ -163,14 +163,18 @@ hr {
 .copy{
   color: rgb(131, 131, 131);
   margin-left: 113px;
+  
 }
 
 .cv{
-  margin-left: 500px;
-  text-decoration: none;
-  background-color:rgb(0, 0, 0);
+   text-decoration: none;
+  background-color:rgb(104, 104, 104);
   color: white;
-  
+  border-radius: 5%;
+  width: 150px;
+  text-align: center;
+  margin-left: 50px;
   
 }
+
     
